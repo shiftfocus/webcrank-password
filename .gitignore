@@ -1,7 +1,46 @@
-dist/
+# Created by .gitignore support plugin (hsz.mobi)
+
+### Scala template
+*.class
+*.log
+
+# sbt specific
+.cache/
+.history/
+.lib/
 target/
 lib_managed/
 src_managed/
 project/boot/
 project/plugins/project/
+project/project
+project/target
+target
+logs
+tmp
+
+/.idea
+/*.iml
+/out
+/.idea_modules
+/.classpath
+/.project
+/RUNNING_PID
+/.settings
+/activator-sbt-echo-akka-shim.sbt
+
+src/main/resources/development.conf
+src/main/resources/feature.conf
+src/main/resources/application.conf
+src/main/resources/stripe_sk
+src/main/resources/stripeKey
+src/main/resources/credentials
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+dump.rdb
+quintana-local-b83f8958e5d8.json
+
+dist/
 *.bak

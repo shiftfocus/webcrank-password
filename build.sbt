@@ -2,13 +2,13 @@ name := "webcrank-password"
 
 organization := "ca.shiftfocus"
 
-version := "0.4.1"
+version := "0.5.0"
 
-scalaVersion := "2.11.1"
+scalaVersion := "2.12.4"
 
 libraryDependencies ++= Seq(
-  "org.mindrot" % "jbcrypt" % "0.3m",
-  "com.lambdaworks" % "scrypt" % "1.3.3",
+  "org.mindrot" % "jbcrypt" % "0.4",
+  "com.lambdaworks" % "scrypt" % "1.4.0",
   "com.owtelse.codec" % "base64" % "1.0.6"
 ) 
 
