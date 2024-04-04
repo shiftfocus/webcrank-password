@@ -41,6 +41,9 @@ src/main/resources/credentials
 .worksheet
 dump.rdb
 quintana-local-b83f8958e5d8.json
+**.metals
+**.bloop
+**.vscode
 
 dist/
 *.bak
