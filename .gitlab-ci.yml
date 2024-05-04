@@ -43,4 +43,4 @@ cleanup:
     tags:
         - aws
     script:
-        - aws ec2 stop-instances --instance-ids $STAGING_J8_INSTANCE $DB_STAGING_INSTANCE
+        - aws ec2 stop-instances --instance-ids $STAGING_INSTANCE
